@@ -33,7 +33,7 @@ medical-xray-vit-vs-cnn/
 ├── requirements.txt        # Thư viện cần thiết
 ├── main.py                 # Entry point
 └── README.md               # Tài liệu
-
+```
 ##  Hướng dẫn cài đặt
 
 **1. Clone repository về máy:**
