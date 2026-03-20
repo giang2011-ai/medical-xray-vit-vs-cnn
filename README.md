@@ -37,19 +37,27 @@ medical-xray-vit-vs-cnn/
 ##  Hướng dẫn cài đặt
 
 **1. Clone repository về máy:**
+```bash
 git clone https://github.com/giang2011-ai/medical-xray-vit-vs-cnn.git
 cd medical-xray-vit-vs-cnn
-
+```
 **2. Thiết lập môi trường ảo (Khuyến nghị):**
+```bash
 python -m venv venv
+```
+
 - Window:
+```bash
 venv\Scripts\activate
+```
 - Linux / macOS:
+```bash
 source venv/bin/activate
-
+```
 **3. Cài đặt các thư viện cần thiết:**
+```bash
 pip install -r requirements.txt
-
+```
 ## Dữ liệu (Dataset)
 
 - Link tải dataset: 
@@ -63,8 +71,11 @@ data/
 ## Cách chạy mô hình
 
 - ResNet-50:
+```bash
 python main.py --model resnet50 --epochs 20 --batch_size 32 --data_dir ./data
+```
 - Vision Transformer (ViT):
+```bash
 python main.py --model vit --epochs 20 --batch_size 16 --data_dir ./data
-
+```
 Kết quả đánh giá và các biểu đồ (Confusion Matrix, ROC Curve) sẽ được tự động lưu vào thư mục `outputs/`.
