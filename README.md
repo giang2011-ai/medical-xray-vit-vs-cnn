@@ -14,7 +14,6 @@ Trong thực tế chẩn đoán lâm sàng, các bộ dữ liệu hình ảnh th
 
 ##  Cấu trúc thư mục
 
-\`\`\`text
 medical-xray-vit-vs-cnn/
 │
 ├── data/
@@ -33,7 +32,6 @@ medical-xray-vit-vs-cnn/
 ├── requirements.txt      # Danh sách các thư viện phụ thuộc
 ├── main.py               # Script thực thi chính
 └── README.md             # Tài liệu hướng dẫn
-\`\`\`
 
 ##  Hướng dẫn cài đặt
 
