@@ -14,24 +14,25 @@ Trong thực tế chẩn đoán lâm sàng, các bộ dữ liệu hình ảnh th
 
 ##  Cấu trúc thư mục
 
+```bash
 medical-xray-vit-vs-cnn/
 │
 ├── data/
-│   ├── train/            # Dữ liệu huấn luyện (chia theo thư mục class)
-│   ├── val/              # Dữ liệu validation trong quá trình train
-│   └── test/             # Dữ liệu test độc lập
+│   ├── train/              # Dữ liệu train (chia theo class)
+│   ├── val/                # Dữ liệu validation
+│   └── test/               # Dữ liệu test
 │
 ├── src/
-│   ├── dataset.py        # Pipeline load dữ liệu và augmentation
-│   ├── models.py         # Khởi tạo kiến trúc ResNet-50 và ViT
-│   ├── train.py          # Vòng lặp huấn luyện, xử lý class weights
-│   ├── evaluate.py       # Tính toán các metrics (F1, AUC, Recall)
-│   └── utils.py          # Vẽ đồ thị (Loss, Accuracy, Confusion Matrix)
+│   ├── dataset.py          # Load dữ liệu + augmentation
+│   ├── models.py           # ResNet-50 & ViT
+│   ├── train.py            # Training loop + class weights
+│   ├── evaluate.py         # Metrics (F1, Recall, AUC)
+│   └── utils.py            # Vẽ biểu đồ
 │
-├── outputs/              # Lưu model weights (.pth) và biểu đồ (.png)
-├── requirements.txt      # Danh sách các thư viện phụ thuộc
-├── main.py               # Script thực thi chính
-└── README.md             # Tài liệu hướng dẫn
+├── outputs/                # Model (.pth) + biểu đồ (.png)
+├── requirements.txt        # Thư viện cần thiết
+├── main.py                 # Entry point
+└── README.md               # Tài liệu
 
 ##  Hướng dẫn cài đặt
 
