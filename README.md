@@ -54,11 +54,12 @@ pip install -r requirements.txt
 
 - Link tải dataset: 
 - Sau khi tải, hãy đảm bảo dữ liệu được giải nén và cấu trúc :
+```bash
 data/
 ├── train/
 ├── val/
 └── test/
-
+```
 ## Cách chạy mô hình
 
 - ResNet-50:
