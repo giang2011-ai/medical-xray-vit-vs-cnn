@@ -5,7 +5,7 @@ Dự án này được thực hiện nhằm đánh giá và so sánh khả năng
 
 Trong thực tế chẩn đoán lâm sàng, các bộ dữ liệu hình ảnh thường gặp tình trạng phân bố lớp bị mất cân bằng nghiêm trọng (số lượng ca bệnh ít hơn rất nhiều so với ca bình thường). Do đó, dự án tập trung vào việc áp dụng các kỹ thuật huấn luyện với dữ liệu mất cân bằng (như Weighted Cross Entropy) và sử dụng các thang đo đánh giá toàn diện hơn như F1-Score (Macro), Recall và AUC-ROC.
 
-## 🎓 Thông tin thực hiện
+##  Thông tin thực hiện
 - **Nhóm 11**
 - **Gồm các thành viên:**
 - *Lê Thị Khánh Linh*
